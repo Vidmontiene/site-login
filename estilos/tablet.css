@@ -30,4 +30,8 @@
   h1{
     margin-top: 0.5em;
   }
+
+  footer{
+    width: 90%;
+  }
 }

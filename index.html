@@ -11,27 +11,29 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <main>
-        <div id="imagem"></div>
-        <div id="dados">
-            <h1>Login</h1>
-            <p id="intro">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-            <form action="" method="post">
-                <div class="campo">
-                    <span class="material-symbols-outlined">person</span>
-                    <input type="email" name="email" id="email" required placeholder="seu e-mail" autocomplete="email">
-                </div>
-                <div class="campo">
-                    <span class="material-symbols-outlined">key</span>
-                    <input type="password" name="senha" id="senha" required placeholder="sua senha" minlength="8" autocomplete="current-password">
-                </div>
-                <input type="submit" value="Entrar" id="entrar"> <br>
-                <a href="#">Esqueci a senha <span class="material-symbols-outlined" id="iconemail">mail</span></a>
-            </form>
-        </div>
-    </main>
-    <footer>
-        <p>Site criado por <a href="https://github.com/Vidmontiene">Camila Vidmontiene</a></p>
-    </footer>
+    <div id="container">
+        <main>
+            <div id="imagem"></div>
+            <div id="dados">
+                <h1>Login</h1>
+                <p id="intro">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <form action="" method="post">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="email" id="email" required placeholder="seu e-mail" autocomplete="email">
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" name="senha" id="senha" required placeholder="sua senha" minlength="8" autocomplete="current-password">
+                    </div>
+                    <input type="submit" value="Entrar" id="entrar"> <br>
+                    <a href="#">Esqueci a senha <span class="material-symbols-outlined" id="iconemail">mail</span></a>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Site criado por <a href="https://github.com/Vidmontiene">Camila Vidmontiene</a></p>
+        </footer>
+    </div>
 </body>
 </html>

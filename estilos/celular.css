@@ -14,14 +14,20 @@ body{
     justify-content: center;
 }
 
+div#container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 main{
     background-color: white;
+    margin: auto;
     width: 250px;
     height: fit-content;
     border-radius: 15px;
     box-shadow: 3px -8px 15px rgb(48, 47, 47);
-    margin-bottom: 25px;
-
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -115,7 +121,7 @@ form > a{
     align-items: center;       
     justify-content: center; 
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 span#iconemail{
@@ -129,10 +135,9 @@ form > a:hover{
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    width: 100%;
     padding-left: 10px;
+    text-align: left;
 }
 
 footer > p{
