@@ -19,14 +19,16 @@ main{
     width: 250px;
     height: fit-content;
     border-radius: 15px;
-    box-shadow: 3px -8px 15px rgb(48, 47, 47)
+    box-shadow: 3px -8px 15px rgb(48, 47, 47);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 div#imagem{
     background: url(https://professorguanabara.github.io/projeto-login/imagens/metal.jpg) left bottom/cover no-repeat;
     height: 180px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 15px 15px 0 0;
 }
 
 h1{
@@ -52,6 +54,7 @@ div#dados{
     border-radius: 10px;
     display: flex;
     align-items: center;
+    height: fit-content;
     margin-bottom: 0.5em;
 }
 
@@ -69,7 +72,7 @@ input#senha, input#email{
     flex: 1;
     font-size: 1em;
     width: 100%;
-    padding:8px;
+    padding:7.5px;
     margin-right: 5px;
     border-radius: 10px;
     border: 0;
