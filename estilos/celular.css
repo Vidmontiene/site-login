@@ -121,7 +121,10 @@ form > a{
     align-items: center;       
     justify-content: center; 
     box-sizing: border-box;
-    margin-bottom: 10px;
+}
+
+form{
+    padding-bottom: 10px;
 }
 
 span#iconemail{
