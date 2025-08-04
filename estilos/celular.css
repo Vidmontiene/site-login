@@ -67,6 +67,7 @@ input#senha, input#email{
     background-color: #94CFCD;
     height: 98%;
     flex: 1;
+    font-size: 1em;
     width: 100%;
     padding:8px;
     margin-right: 5px;
